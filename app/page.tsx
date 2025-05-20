@@ -31,8 +31,8 @@ export default function Home() {
                 <span className="text-emerald-500">Next Generation</span>
               </h1>
               <p className="text-gray-700 mb-8 text-lg">
-                BDTask, Inc. has a global reputation for up to scratch customer experience which marks us as one of the
-                best software development companies in the world.
+                TLB Soft, Inc. has a global reputation for up to scratch customer experience which marks us as one of
+                the best software development companies in the world.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-md">
@@ -56,7 +56,7 @@ export default function Home() {
               <div className="relative rounded-lg overflow-hidden">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
-                  alt="BDTask Team"
+                  alt="TLB Soft Team"
                   width={800}
                   height={600}
                   className="w-full h-auto rounded-lg"
@@ -80,6 +80,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Rest of the homepage content remains the same */}
       {/* Services Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -234,7 +235,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Hear from our satisfied clients about their experience working with BDTask.
+              Hear from our satisfied clients about their experience working with TLB Soft.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -256,7 +257,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-6 italic">
-                  "BDTask delivered an exceptional software solution that has significantly improved our business
+                  "TLB Soft delivered an exceptional software solution that has significantly improved our business
                   operations. Their team was professional, responsive, and truly understood our needs."
                 </p>
                 <div className="flex items-center gap-4">

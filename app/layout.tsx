@@ -8,9 +8,9 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "BDTask - A Leading Software Company",
+  title: "TLB Soft - A Leading Software Company",
   description:
-    "BDTask is a leading software development company providing innovative solutions for businesses worldwide.",
+    "TLB Soft is a leading software development company providing innovative solutions for businesses worldwide.",
     generator: 'v0.dev'
 }
 

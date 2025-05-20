@@ -17,7 +17,7 @@ export default function Header() {
       <header className="w-full bg-white py-4 px-4 border-b">
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/" className="flex items-center gap-1">
-            <Image src="/logo.svg" alt="BDTask Logo" width={150} height={50} className="h-12 w-auto" />
+            <Image src="/logo.svg" alt="TLB Soft Logo" width={150} height={50} className="h-12 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/products" className="font-medium text-gray-800 hover:text-emerald-600 transition-colors">

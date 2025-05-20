@@ -9,10 +9,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <Link href="/" className="inline-block mb-6">
-              <Image src="/logo-white.svg" alt="BDTask Logo" width={150} height={50} className="h-12 w-auto" />
+              <Image src="/logo-white.svg" alt="TLB Soft Logo" width={150} height={50} className="h-12 w-auto" />
             </Link>
             <p className="text-gray-400 mb-6">
-              BDTask, Inc. has a global reputation for up to scratch customer experience which marks us as one of the
+              TLB Soft, Inc. has a global reputation for up to scratch customer experience which marks us as one of the
               best software development companies in the world.
             </p>
             <div className="flex gap-4">
@@ -103,13 +103,13 @@ export default function Footer() {
               </li>
               <li className="flex gap-3">
                 <Mail className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                <span className="text-gray-400">info@bdtask.com</span>
+                <span className="text-gray-400">info@tlbsoft.com</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8">
-          <p className="text-center text-gray-500">© {new Date().getFullYear()} BDTask. All rights reserved.</p>
+          <p className="text-center text-gray-500">© {new Date().getFullYear()} TLB Soft. All rights reserved.</p>
         </div>
       </div>
     </footer>

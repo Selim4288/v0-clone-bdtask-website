@@ -70,7 +70,7 @@ const productsData = {
     testimonials: [
       {
         quote:
-          "The ERP solution from BDTask has transformed our business operations. We now have complete visibility across all departments and can make informed decisions quickly.",
+          "The ERP solution from TLB Soft has transformed our business operations. We now have complete visibility across all departments and can make informed decisions quickly.",
         author: "John Smith",
         position: "CEO",
         company: "Tech Solutions Inc.",
@@ -155,7 +155,7 @@ const productsData = {
     testimonials: [
       {
         quote:
-          "The POS system from BDTask has revolutionized how we handle transactions. It's fast, reliable, and our staff love using it.",
+          "The POS system from TLB Soft has revolutionized how we handle transactions. It's fast, reliable, and our staff love using it.",
         author: "Michael Brown",
         position: "Owner",
         company: "Brown's Retail Store",
@@ -331,7 +331,7 @@ const productsData = {
     testimonials: [
       {
         quote:
-          "The HRM solution from BDTask has transformed our HR department. What used to take days now takes minutes, and our employees love the self-service features.",
+          "The HRM solution from TLB Soft has transformed our HR department. What used to take days now takes minutes, and our employees love the self-service features.",
         author: "Jennifer Adams",
         position: "HR Director",
         company: "Global Innovations Inc.",
@@ -422,7 +422,7 @@ const productsData = {
     testimonials: [
       {
         quote:
-          "Since launching our store on BDTask's e-commerce platform, our online sales have increased by 200%. The platform is intuitive, reliable, and packed with features that help us grow.",
+          "Since launching our store on TLB Soft's e-commerce platform, our online sales have increased by 200%. The platform is intuitive, reliable, and packed with features that help us grow.",
         author: "Alex Thompson",
         position: "E-commerce Director",
         company: "Fashion Forward",
