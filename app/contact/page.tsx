@@ -41,8 +41,8 @@ export default function ContactPage() {
                 </div>
               </div>
               <h3 className="text-xl font-semibold mb-2">Email</h3>
-              <p className="text-gray-600">info@tlbsoft.com</p>
-              <p className="text-gray-600">support@tlbsoft.com</p>
+              <p className="text-gray-600">info@bdtask.com</p>
+              <p className="text-gray-600">support@bdtask.com</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <div className="flex justify-center mb-4">

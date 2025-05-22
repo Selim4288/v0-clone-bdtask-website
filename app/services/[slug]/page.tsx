@@ -98,7 +98,7 @@ const servicesData = {
     testimonials: [
       {
         quote:
-          "The custom software developed by TLB Soft has transformed our business operations. Their team took the time to understand our unique needs and delivered a solution that exceeded our expectations.",
+          "The custom software developed by BDTask has transformed our business operations. Their team took the time to understand our unique needs and delivered a solution that exceeded our expectations.",
         author: "John Smith",
         position: "CTO",
         company: "Global Manufacturing Inc.",
@@ -106,7 +106,7 @@ const servicesData = {
       },
       {
         quote:
-          "Working with TLB Soft was a seamless experience. Their expertise in custom software development helped us create a solution that has significantly improved our efficiency and customer satisfaction.",
+          "Working with BDTask was a seamless experience. Their expertise in custom software development helped us create a solution that has significantly improved our efficiency and customer satisfaction.",
         author: "Sarah Johnson",
         position: "Operations Director",
         company: "Healthcare Solutions Ltd.",
@@ -204,7 +204,7 @@ const servicesData = {
     testimonials: [
       {
         quote:
-          "TLB Soft delivered an exceptional mobile app that has significantly boosted our customer engagement and sales. Their attention to detail and user experience expertise made all the difference.",
+          "BDTask delivered an exceptional mobile app that has significantly boosted our customer engagement and sales. Their attention to detail and user experience expertise made all the difference.",
         author: "Michael Brown",
         position: "Marketing Director",
         company: "Retail Innovations",
@@ -212,7 +212,7 @@ const servicesData = {
       },
       {
         quote:
-          "The app developed by TLB Soft exceeded our expectations in terms of performance and user adoption. Their team was responsive, professional, and truly committed to our success.",
+          "The app developed by BDTask exceeded our expectations in terms of performance and user adoption. Their team was responsive, professional, and truly committed to our success.",
         author: "Lisa Chen",
         position: "Product Manager",
         company: "FitLife Inc.",
@@ -314,7 +314,7 @@ const servicesData = {
     testimonials: [
       {
         quote:
-          "TLB Soft transformed our outdated website into a modern, user-friendly platform that has significantly improved our online presence and customer engagement.",
+          "BDTask transformed our outdated website into a modern, user-friendly platform that has significantly improved our online presence and customer engagement.",
         author: "Robert Johnson",
         position: "Marketing Manager",
         company: "Financial Solutions Group",
@@ -322,7 +322,7 @@ const servicesData = {
       },
       {
         quote:
-          "The web application developed by TLB Soft has revolutionized how we deliver educational content. Their technical expertise and attention to user experience were exceptional.",
+          "The web application developed by BDTask has revolutionized how we deliver educational content. Their technical expertise and attention to user experience were exceptional.",
         author: "Emily Wong",
         position: "Director of Digital Learning",
         company: "Global Education Institute",

@@ -31,8 +31,8 @@ export default function Home() {
                 <span className="text-emerald-500">Next Generation</span>
               </h1>
               <p className="text-gray-700 mb-8 text-lg">
-                TLB Soft, Inc. has a global reputation for up to scratch customer experience which marks us as one of
-                the best software development companies in the world.
+                BDTask, Inc. has a global reputation for up to scratch customer experience which marks us as one of the
+                best software development companies in the world.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-md">
@@ -56,7 +56,7 @@ export default function Home() {
               <div className="relative rounded-lg overflow-hidden">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
-                  alt="TLB Soft Team"
+                  alt="BDTask Team"
                   width={800}
                   height={600}
                   className="w-full h-auto rounded-lg"
@@ -80,64 +80,96 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Rest of the homepage content remains the same */}
       {/* Services Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We provide a wide range of software development services to help businesses grow and succeed in the
-              digital world.
+              We provide a wide range of IT and digital services to help businesses grow and succeed in the digital
+              world.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Custom Software Development",
+                title: "Software Development",
                 description:
-                  "Tailored software solutions designed to meet your specific business needs and requirements.",
+                  "Custom software solutions tailored to your business needs, from enterprise applications to specialized industry software.",
                 icon: "💻",
-                link: "/services/custom-software",
+                link: "/services-overview#software-development",
+              },
+              {
+                title: "Website Design & Development",
+                description:
+                  "Professional website design and development services that create stunning, functional, and user-friendly websites.",
+                icon: "🌐",
+                link: "/services-overview#website-design-development",
               },
               {
                 title: "Mobile App Development",
-                description: "Native and cross-platform mobile applications for iOS and Android platforms.",
+                description:
+                  "Cutting-edge mobile applications for iOS and Android platforms that engage users and drive business growth.",
                 icon: "📱",
-                link: "/services/mobile-app",
+                link: "/services-overview#mobile-app-development",
               },
               {
-                title: "Web Development",
-                description: "Responsive and user-friendly websites and web applications with modern technologies.",
-                icon: "🌐",
-                link: "/services/web-development",
-              },
-              {
-                title: "UI/UX Design",
-                description: "Intuitive and engaging user interfaces that enhance user experience and satisfaction.",
+                title: "Graphic Design",
+                description:
+                  "Creative graphic design services that communicate your brand message effectively and leave a lasting impression.",
                 icon: "🎨",
-                link: "/services/ui-ux",
+                link: "/services-overview#graphic-design",
               },
               {
-                title: "E-commerce Solutions",
-                description: "Complete e-commerce platforms with payment gateways, inventory management, and more.",
+                title: "Digital Marketing",
+                description:
+                  "Comprehensive digital marketing strategies that increase your online visibility, drive traffic, and generate leads.",
+                icon: "📈",
+                link: "/services-overview#digital-marketing",
+              },
+              {
+                title: "E-commerce Website",
+                description:
+                  "Powerful e-commerce solutions that help you sell products and services online with secure payment processing.",
                 icon: "🛒",
-                link: "/services/ecommerce",
+                link: "/services-overview#ecommerce-website",
               },
               {
-                title: "IT Consulting",
-                description: "Expert advice and guidance on technology strategy, implementation, and optimization.",
+                title: "Domain & Hosting Services",
+                description:
+                  "Reliable domain registration and web hosting services that provide a solid foundation for your online presence.",
+                icon: "🔌",
+                link: "/services-overview#domain-hosting",
+              },
+              {
+                title: "Affordable Local SEO Services",
+                description:
+                  "Targeted local SEO strategies that help your business appear in local search results and attract nearby customers.",
                 icon: "🔍",
-                link: "/services/consulting",
+                link: "/services-overview#local-seo",
+              },
+              {
+                title: "Buildings IT Network Infrastructure",
+                description:
+                  "Comprehensive IT network infrastructure solutions for buildings, ensuring reliable connectivity and performance.",
+                icon: "🏢",
+                link: "/services-overview#it-network-infrastructure",
+              },
+              {
+                title: "IT Products Supply and Service",
+                description:
+                  "Comprehensive IT product supply and service solutions for public and private organizations of all sizes.",
+                icon: "🖥️",
+                link: "/services-overview#it-products-supply",
               },
             ].map((service, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100"
+                className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100 flex flex-col h-full"
               >
                 <div className="text-4xl mb-4">{service.icon}</div>
                 <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
+                <p className="text-gray-600 mb-4 flex-grow">{service.description}</p>
                 <Link
                   href={service.link}
                   className="text-emerald-500 font-medium flex items-center gap-1 hover:underline"
@@ -146,6 +178,13 @@ export default function Home() {
                 </Link>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link href="/services-overview">
+              <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-md">
+                View All Services
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -235,7 +274,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Hear from our satisfied clients about their experience working with TLB Soft.
+              Hear from our satisfied clients about their experience working with BDTask.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -257,7 +296,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-6 italic">
-                  "TLB Soft delivered an exceptional software solution that has significantly improved our business
+                  "BDTask delivered an exceptional software solution that has significantly improved our business
                   operations. Their team was professional, responsive, and truly understood our needs."
                 </p>
                 <div className="flex items-center gap-4">

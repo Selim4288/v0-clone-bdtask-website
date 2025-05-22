@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function ProductsPage() {
   const products = [
+    // Existing products
     {
       id: "erp-solutions",
       title: "ERP Solutions",
@@ -167,6 +168,362 @@ export default function ProductsPage() {
       ],
       link: "/products/restaurant-management",
     },
+
+    // New products
+    {
+      id: "accounting-inventory",
+      title: "Accounting & Inventory Software",
+      description: "Integrated solution for managing finances and inventory in one platform.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Financial Accounting",
+        "Inventory Tracking",
+        "Purchase Management",
+        "Sales Management",
+        "Reporting & Analytics",
+      ],
+      link: "/products/accounting-inventory",
+    },
+    {
+      id: "hr-payroll",
+      title: "HR & Payroll Management Software",
+      description: "Comprehensive solution for managing human resources and payroll processing.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Employee Management",
+        "Attendance Tracking",
+        "Payroll Processing",
+        "Tax Calculations",
+        "Leave Management",
+      ],
+      link: "/products/hr-payroll",
+    },
+    {
+      id: "office-management",
+      title: "Office Management Software with HRM",
+      description: "Complete office management solution with integrated human resource management.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: ["Document Management", "Task Management", "HR Functions", "Meeting Scheduling", "Asset Management"],
+      link: "/products/office-management",
+    },
+    {
+      id: "garments-erp",
+      title: "Garments ERP Software",
+      description: "Specialized ERP solution for garment manufacturing and textile industries.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Production Planning",
+        "Material Management",
+        "Quality Control",
+        "Order Management",
+        "Cost Calculation",
+      ],
+      link: "/products/garments-erp",
+    },
+    {
+      id: "company-management-crm",
+      title: "Company Management CRM",
+      description: "Comprehensive CRM solution for managing company operations and customer relationships.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Customer Management",
+        "Sales Pipeline",
+        "Marketing Automation",
+        "Service Management",
+        "Business Analytics",
+      ],
+      link: "/products/company-management-crm",
+    },
+    {
+      id: "medicine-shop",
+      title: "Medicine Shop Management Software",
+      description: "Specialized solution for pharmacies and medicine shops to manage inventory and sales.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Medicine Inventory",
+        "Prescription Management",
+        "Expiry Tracking",
+        "Customer Records",
+        "Sales Reporting",
+      ],
+      link: "/products/medicine-shop",
+    },
+    {
+      id: "invoice-billing",
+      title: "Invoice / Billing Software",
+      description: "Streamlined solution for creating, managing, and tracking invoices and bills.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Invoice Generation",
+        "Payment Tracking",
+        "Client Management",
+        "Tax Calculations",
+        "Financial Reporting",
+      ],
+      link: "/products/invoice-billing",
+    },
+    {
+      id: "product-stock",
+      title: "Product Stock Management Software",
+      description: "Efficient solution for tracking and managing product inventory and stock levels.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: ["Stock Tracking", "Inventory Valuation", "Reorder Alerts", "Barcode Integration", "Stock Reports"],
+      link: "/products/product-stock",
+    },
+    {
+      id: "retail-shop",
+      title: "Retail Shop Management Software",
+      description: "Complete solution for managing retail store operations and inventory.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "POS Integration",
+        "Inventory Management",
+        "Customer Loyalty",
+        "Employee Management",
+        "Sales Analytics",
+      ],
+      link: "/products/retail-shop",
+    },
+    {
+      id: "wholesale-shop",
+      title: "Wholesale Shop Management Software",
+      description: "Specialized solution for wholesale businesses to manage inventory and orders.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Bulk Order Processing",
+        "Supplier Management",
+        "Price Management",
+        "Customer Accounts",
+        "Inventory Control",
+      ],
+      link: "/products/wholesale-shop",
+    },
+    {
+      id: "fashion-clothing",
+      title: "Fashion & Clothing Shop Management Software",
+      description: "Tailored solution for fashion retailers to manage inventory, sales, and customers.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Size/Color Variants",
+        "Season Management",
+        "Fashion Inventory",
+        "Customer Profiles",
+        "Sales Reporting",
+      ],
+      link: "/products/fashion-clothing",
+    },
+    {
+      id: "super-shop",
+      title: "Super Shop / Departmental Shop Management Software",
+      description: "Comprehensive solution for managing large retail stores with multiple departments.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Multi-department Management",
+        "Inventory Control",
+        "Customer Loyalty",
+        "Employee Scheduling",
+        "Sales Analytics",
+      ],
+      link: "/products/super-shop",
+    },
+    {
+      id: "cable-network",
+      title: "Cable Network Dish Bill Collection Software",
+      description: "Specialized solution for cable operators to manage subscriptions and bill collection.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Subscriber Management",
+        "Billing Cycles",
+        "Payment Tracking",
+        "Service Plans",
+        "Technician Scheduling",
+      ],
+      link: "/products/cable-network",
+    },
+    {
+      id: "optics-shop",
+      title: "Optics Shop Billing System Software",
+      description: "Tailored solution for optical shops to manage inventory, prescriptions, and sales.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Prescription Management",
+        "Frame Inventory",
+        "Lens Management",
+        "Customer Records",
+        "Appointment Scheduling",
+      ],
+      link: "/products/optics-shop",
+    },
+    {
+      id: "sme-trading",
+      title: "SME Trading Business Software",
+      description: "Comprehensive solution for small and medium trading businesses.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Purchase Management",
+        "Sales Management",
+        "Inventory Control",
+        "Financial Tracking",
+        "Customer Management",
+      ],
+      link: "/products/sme-trading",
+    },
+    {
+      id: "tiles-sanitary",
+      title: "Tiles and Sanitary Business Software",
+      description: "Specialized solution for tiles and sanitary ware businesses.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Product Catalog",
+        "Inventory Management",
+        "Sales Processing",
+        "Customer Management",
+        "Supplier Management",
+      ],
+      link: "/products/tiles-sanitary",
+    },
+    {
+      id: "footwear-shop",
+      title: "Footwear Shop Management Software",
+      description: "Tailored solution for footwear retailers to manage inventory and sales.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Size/Style Management",
+        "Inventory Control",
+        "POS Integration",
+        "Customer Loyalty",
+        "Sales Reporting",
+      ],
+      link: "/products/footwear-shop",
+    },
+    {
+      id: "jewelry-management",
+      title: "Jewelry Management Software",
+      description: "Specialized solution for jewelry stores to manage inventory, sales, and customers.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Precious Metal Tracking",
+        "Stone Inventory",
+        "Custom Order Management",
+        "Customer Profiles",
+        "Sales Reporting",
+      ],
+      link: "/products/jewelry-management",
+    },
+    {
+      id: "food-color-shop",
+      title: "Food-Color Shop Management Software",
+      description: "Tailored solution for food color and additive businesses.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: ["Product Catalog", "Inventory Management", "Batch Tracking", "Expiry Management", "Sales Reporting"],
+      link: "/products/food-color-shop",
+    },
+    {
+      id: "chemical-shop",
+      title: "Chemical Shop Management Software",
+      description: "Specialized solution for chemical retailers to manage inventory and compliance.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Chemical Inventory",
+        "Safety Compliance",
+        "Batch Tracking",
+        "Customer Management",
+        "Supplier Management",
+      ],
+      link: "/products/chemical-shop",
+    },
+    {
+      id: "hardware-shop",
+      title: "Hardware Shop Management Software",
+      description: "Complete solution for hardware stores to manage inventory and sales.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Product Catalog",
+        "Inventory Management",
+        "POS Integration",
+        "Customer Accounts",
+        "Supplier Management",
+      ],
+      link: "/products/hardware-shop",
+    },
+    {
+      id: "multi-business",
+      title: "Multi-Business Management Software",
+      description: "Versatile solution for managing multiple business units under one platform.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Multi-branch Management",
+        "Consolidated Reporting",
+        "Role-based Access",
+        "Centralized Database",
+        "Business Unit Analytics",
+      ],
+      link: "/products/multi-business",
+    },
+    {
+      id: "computer-shop",
+      title: "Computer Shop (POS) Management Software",
+      description: "Specialized solution for computer and IT equipment retailers.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Hardware Inventory",
+        "Software Licensing",
+        "Service Management",
+        "Customer Database",
+        "Sales Reporting",
+      ],
+      link: "/products/computer-shop",
+    },
+    {
+      id: "mobile-shop",
+      title: "Mobile Shop (POS) Management Software",
+      description: "Tailored solution for mobile phone retailers to manage inventory and sales.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: ["Device Inventory", "IMEI Tracking", "Accessory Management", "Repair Tracking", "Customer Database"],
+      link: "/products/mobile-shop",
+    },
+    {
+      id: "stationery-shop",
+      title: "Stationery Shop (POS) Management Software",
+      description: "Complete solution for stationery stores to manage inventory and sales.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Product Catalog",
+        "Inventory Management",
+        "Bulk Order Processing",
+        "Customer Accounts",
+        "Sales Reporting",
+      ],
+      link: "/products/stationery-shop",
+    },
+    {
+      id: "electronics-shop",
+      title: "Electronics Shop Management Software",
+      description: "Specialized solution for electronics retailers to manage inventory and sales.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Product Catalog",
+        "Serial Number Tracking",
+        "Warranty Management",
+        "Customer Database",
+        "Sales Reporting",
+      ],
+      link: "/products/electronics-shop",
+    },
+    {
+      id: "web-hosting",
+      title: "Web & Hosting Company Management Software",
+      description: "Comprehensive solution for web hosting companies to manage services and clients.",
+      image: "/placeholder.svg?height=300&width=400",
+      features: [
+        "Domain Management",
+        "Hosting Package Management",
+        "Client Portal",
+        "Billing & Invoicing",
+        "Support Ticket System",
+      ],
+      link: "/products/web-hosting",
+    },
   ]
 
   return (
@@ -177,8 +534,8 @@ export default function ProductsPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Products</h1>
             <p className="text-xl text-gray-600 mb-8">
-              Explore our range of innovative software products designed to streamline your business operations and
-              drive growth.
+              Explore our comprehensive range of innovative software products designed to streamline your business
+              operations and drive growth across various industries.
             </p>
           </div>
         </div>
@@ -215,6 +572,36 @@ export default function ProductsPage() {
                   </div>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Categories Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-12 text-center">Browse by Industry</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {[
+              "Retail",
+              "Healthcare",
+              "Education",
+              "Hospitality",
+              "Manufacturing",
+              "Real Estate",
+              "Financial Services",
+              "E-commerce",
+              "Telecommunications",
+              "Construction",
+              "Transportation",
+              "Technology",
+            ].map((category, index) => (
+              <div
+                key={index}
+                className="bg-white p-4 rounded-lg text-center border border-gray-100 hover:border-emerald-500 hover:shadow-md transition-all"
+              >
+                <div className="text-lg font-medium">{category}</div>
+              </div>
             ))}
           </div>
         </div>
