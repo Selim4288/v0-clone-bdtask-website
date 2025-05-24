@@ -6,18 +6,18 @@ import { Button } from "@/components/ui/button"
 export default function Header() {
   return (
     <>
-      <div className="w-full bg-blue-600 text-white py-3 px-4 text-center">
+      <div className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 px-4 text-center">
         <div className="container mx-auto flex justify-center items-center gap-2">
-          <span>🚀 New Product Launch - Get 30% Off on All Enterprise Solutions!</span>
-          <Button size="sm" className="bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-md">
-            Learn More
+          <span>✨ Transform Your Business with AI-Powered Solutions - Limited Time Offer!</span>
+          <Button size="sm" className="bg-white hover:bg-gray-100 text-purple-600 font-medium rounded-md">
+            Get Started
           </Button>
         </div>
       </div>
       <header className="w-full bg-white py-4 px-4 border-b">
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/" className="flex items-center gap-1">
-            <Image src="/logo.svg" alt="BDTask Logo" width={150} height={50} className="h-12 w-auto" />
+            <Image src="/logo.svg" alt="TechFlow Logo" width={150} height={50} className="h-12 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/products" className="font-medium text-gray-800 hover:text-emerald-600 transition-colors">
