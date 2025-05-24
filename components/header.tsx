@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button"
 export default function Header() {
   return (
     <>
-      <div className="w-full bg-emerald-500 text-white py-3 px-4 text-center">
+      <div className="w-full bg-blue-600 text-white py-3 px-4 text-center">
         <div className="container mx-auto flex justify-center items-center gap-2">
-          <span>Save Extra Cost & Increase Your ROI</span>
-          <Button size="sm" className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium rounded-md">
-            Grab it now
+          <span>🚀 New Product Launch - Get 30% Off on All Enterprise Solutions!</span>
+          <Button size="sm" className="bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-md">
+            Learn More
           </Button>
         </div>
       </div>
